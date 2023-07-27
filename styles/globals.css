@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, h2, h3, h4, h5, p, span, div {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    color: #e0d196;
+}
+
+/*
+body {
+	background-color: #25253d;
+	background-image: url('/images/bg.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-blend-mode: hard-light;
+}
+*/
+
+body {
+	background-image: url('/images/bg.jpg');
+	background-size: contain;
+	padding: 40px;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #e0d196 0 0 0 5px,
+		inset #b7a86c 0 0 0 1px,
+		inset #493e12 0 0 0 10px,
+		inset #9a8223 0 0 0 11px;
+	-moz-box-shadow:
+		inset #e0d196 0 0 0 5px,
+		inset #b7a86c 0 0 0 1px,
+		inset #493e12 0 0 0 10px,
+		inset #9a8223 0 0 0 11px;
+
+	box-shadow:
+		inset #e0d196 0 0 0 5px,
+		inset #b7a86c 0 0 0 1px,
+		inset #493e12 0 0 0 10px,
+		inset #9a8223 0 0 0 11px;
+}
+
+
+.tickets-card {
+	background-image: url('/images/ticket-bg.png');
+	background-size: 100% 100%;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+.label-text {
+	font-size: 1.5em;
+}
+
+input {
+	font-size: 1.5em;
+}
+
+input[type="submit"] {
+	border: 2px solid #e0d196;
+	padding: 20px;
+}
+
+.pagination button {
+	padding: 10px;
+	font-size: 1.5em;
+}
